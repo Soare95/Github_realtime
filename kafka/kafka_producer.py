@@ -11,7 +11,6 @@ import random
 
 
 # ---------- Config ----------
-# BOOTSTRAP = os.getenv("KAFKA_BOOKSTRAP", "172.29.218.169:9092")                    # The address of the Kafka cluster
 BOOTSTRAP = os.getenv("KAFKA_BOOKSTRAP", "localhost:9092")                    # The address of the Kafka cluster
 USER_AGENT = os.getenv("USER_AGENT", "github-events-producer/1.0")            # An identifier went to Github when making requests
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")                                      # Token for Github API

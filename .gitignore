@@ -1,2 +1,5 @@
+.env
 misc/
 sandbox.py
+msg.json
+.github_events_state.json
